@@ -1,5 +1,6 @@
 package net.seanomik.tamablefoxes;
 
+import net.seanomik.tamablefoxes.io.LanguageConfig;
 import org.bukkit.ChatColor;
 
 import java.lang.reflect.Constructor;
@@ -8,7 +9,7 @@ import java.util.List;
 public class Utils {
 
     public static String getPrefix() {
-        return ChatColor.RED + "[Tamable Foxes] ";
+        return LanguageConfig.getPrefix();
     }
 
     public static Class<?> getPrivateInnerClass(Class outer, String innerName) {

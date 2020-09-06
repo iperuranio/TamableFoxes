@@ -97,6 +97,9 @@ public class LanguageConfig extends YamlConfiguration  {
         return getConfig().getString("unsupported-mc-version-disabling");
     }
 
+    public static String getPrefix() {
+        return getConfig().getString("prefix");
+    }
     // Get the message that shows when we successfully replaced the entity.
     public static String getSuccessReplaced() {
         return getConfig().getString("success-replaced-entity");

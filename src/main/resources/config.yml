@@ -2,6 +2,6 @@
 show-owner-in-fox-name: true
 enable-taming-permission: true
 ask-for-name-after-taming: true
-
+prefix: "&aVolpi &8>>"
 tamed-behavior:
   attack-wild-animals: true
