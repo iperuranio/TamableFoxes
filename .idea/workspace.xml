@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcab9632-7b1a-44d7-9283-be9b37640afc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/seanomik/tamablefoxes/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/seanomik/tamablefoxes/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/seanomik/tamablefoxes/io/LanguageConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/seanomik/tamablefoxes/io/LanguageConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/language.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/language.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +177,9 @@
       <updated>1579657428994</updated>
       <workItem from="1580167223251" duration="11834000" />
       <workItem from="1582324367334" duration="782000" />
-      <workItem from="1599397355321" duration="569000" />
+      <workItem from="1599397355321" duration="941000" />
+      <workItem from="1599399095893" duration="131000" />
+      <workItem from="1599401057448" duration="42000" />
     </task>
     <task id="LOCAL-00001" summary="Attempt at implementing NBT">
       <created>1580168789486</created>
@@ -238,25 +239,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599089220553" />
-    <state width="1877" height="275" key="GridCell.Tab.0.bottom" timestamp="1599397842530">
+    <state width="1877" height="275" key="GridCell.Tab.0.bottom" timestamp="1599398296498">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.-229.2560.1400@0.0.1920.1040" timestamp="1599397842530" />
+    <state width="1877" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.-229.2560.1400@0.0.1920.1040" timestamp="1599398296498" />
     <state width="1877" height="186" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599154617624" />
-    <state width="1877" height="275" key="GridCell.Tab.0.center" timestamp="1599397842529">
+    <state width="1877" height="275" key="GridCell.Tab.0.center" timestamp="1599398296498">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="275" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.-229.2560.1400@0.0.1920.1040" timestamp="1599397842529" />
+    <state width="1877" height="275" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.-229.2560.1400@0.0.1920.1040" timestamp="1599398296498" />
     <state width="1877" height="186" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599154617624" />
-    <state width="1877" height="275" key="GridCell.Tab.0.left" timestamp="1599397842529">
+    <state width="1877" height="275" key="GridCell.Tab.0.left" timestamp="1599398296498">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="275" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.-229.2560.1400@0.0.1920.1040" timestamp="1599397842529" />
+    <state width="1877" height="275" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.-229.2560.1400@0.0.1920.1040" timestamp="1599398296498" />
     <state width="1877" height="186" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599154617623" />
-    <state width="1877" height="275" key="GridCell.Tab.0.right" timestamp="1599397842529">
+    <state width="1877" height="275" key="GridCell.Tab.0.right" timestamp="1599398296498">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="275" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.-229.2560.1400@0.0.1920.1040" timestamp="1599397842529" />
+    <state width="1877" height="275" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.-229.2560.1400@0.0.1920.1040" timestamp="1599398296498" />
     <state width="1877" height="186" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599154617624" />
     <state width="1877" height="259" key="GridCell.Tab.1.bottom" timestamp="1599090864717">
       <screen x="0" y="0" width="1920" height="1040" />

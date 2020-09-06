@@ -4,7 +4,7 @@ unsupported-mc-version-disabling: "This plugin version only supports Spigot 1.14
 success-replaced-entity: "Replaced tamable fox entity!"
 error-to-replaced-entity: "Failed to replace tamable fox entity!"
 saving-foxes-message: "Saving foxes."
-
+prefix: "&aVolpi &8>>"
 taming-tamed-message: "You just tamed a wild fox!"
 taming-asking-for-name-message: "What do you want to call it?"
 taming-chosen-name-perfect: "%NEW_FOX_NAME% is perfect!"
