@@ -1,12 +1,10 @@
 package net.seanomik.tamablefoxes;
 
 import net.seanomik.tamablefoxes.versions.NMSInterface;
-import net.seanomik.tamablefoxes.versions.version_1_14_R1.NMSInterface_1_14_R1;
-import net.seanomik.tamablefoxes.versions.version_1_15_R1.NMSInterface_1_15_R1;
-import net.seanomik.tamablefoxes.versions.version_1_16_R1.NMSInterface_1_16_R1;
-import net.seanomik.tamablefoxes.versions.version_1_16_R2.NMSInterface_1_16_R2;
+import net.seanomik.tamablefoxes.versions.version_1_16_R3.NMSInterface_1_16_R3;
 import net.seanomik.tamablefoxes.io.LanguageConfig;
-import org.bukkit.*;
+import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -32,14 +30,8 @@ public final class TamableFoxes extends JavaPlugin implements Listener {
         LanguageConfig.getConfig().saveDefault();
 
         String version = Bukkit.getServer().getClass().getPackage().getName().split("\\.")[3];
-        if (version.equals("v1_14_R1")) {
-            nmsInterface = new NMSInterface_1_14_R1();
-        } else if (version.equals("v1_15_R1")) {
-            nmsInterface = new NMSInterface_1_15_R1();
-        } else if (version.equals("v1_16_R1")) {
-            nmsInterface = new NMSInterface_1_16_R1();
-        } else if (version.equals("v1_16_R2")) {
-            nmsInterface = new NMSInterface_1_16_R2();
+        if (version.equals("v1_16_R3")) {
+            nmsInterface = new NMSInterface_1_16_R3();
         } else {
             Bukkit.getServer().getConsoleSender().sendMessage(Utils.getPrefix() + ChatColor.RED + LanguageConfig.getUnsupportedMCVersionRegister());
             versionSupported = false;

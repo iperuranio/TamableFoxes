@@ -10,6 +10,6 @@ public interface NMSInterface {
         SNOW
     }
 
-    public void registerCustomFoxEntity();
-    public void spawnTamableFox(Location loc, FoxType type);
+    void registerCustomFoxEntity();
+    void spawnTamableFox(Location loc, FoxType type);
 }

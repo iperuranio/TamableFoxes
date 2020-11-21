@@ -60,6 +60,10 @@
 
     <repositories>
         <repository>
+            <id>codemc-snapshots</id>
+            <url>https://repo.codemc.io/repository/maven-snapshots/</url>
+        </repository>
+        <repository>
             <id>spigot-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
@@ -79,18 +83,12 @@
             <artifactId>AllSpigotNMS</artifactId>
             <version>LATEST</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/spigot-14-15-16_R1-16_R2.jar</systemPath>
-        </dependency>
-        <dependency> <!-- We need to do this so we get the spigot api without nms. -->
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-api</artifactId>
-            <version>1.14.4-R0.1-SNAPSHOT</version>
-            <scope>provided</scope>
+            <systemPath>${project.basedir}/src/main/resources/spigot-1.16.4.jar</systemPath>
         </dependency>
         <dependency>
-            <groupId>com.github.WesJD.AnvilGUI</groupId>
+            <groupId>net.wesjd</groupId>
             <artifactId>anvilgui</artifactId>
-            <version>master-cee0befbaf-1</version>
+            <version>1.3.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>
